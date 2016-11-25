@@ -421,12 +421,10 @@ a:hover, a:focus {
     background-size: cover;
 }
 
-#contact, #contact a {
+#contact, #contact a, #contact a:hover, #contact a:focus {
     color: #fff
 }
-#contact a:hover, #contact a:focus {
-  color: #0093cf
-}
+
 #contact .heading .border {
     background-color: #fff
 }
