@@ -308,7 +308,7 @@ a:focus {
 }
 #contact,
 #contact a,
-#contact a:hover,
+#contact a:hover
 #contact a:focus { color: #fff }
 #contact .heading .border { background-color: #fff }
 #contact a { display: block }
