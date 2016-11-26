@@ -99,6 +99,7 @@ function initAnimations() {
             $el.removeClass('hiding');
         }
     });
+}
 
     // Service hover animation
     $('.service').hover(function() {
@@ -113,7 +114,6 @@ $(document).ready(function() {
     initNavbar();
     initPortfolio();
     initAnimations();
-    scaleVideoContainer();
 
 });
 
