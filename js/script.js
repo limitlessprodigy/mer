@@ -143,9 +143,8 @@ function initAnimations() {
 
     $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
-    });
-    }
-    
+  });
+
     // Service hover animation
     $('.service').hover(function() {
         $('i', this).addClass('animated tada');
