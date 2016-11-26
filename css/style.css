@@ -183,49 +183,15 @@ a:hover, a:focus {
 .page .heading p {
     margin: 20px auto 0
 }
-
-#home .homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-}
-#home .no-video .video-container video,
-#home .touch .video-container video {
-    display: none;
-}
-#home .no-video .video-container .poster,
-#home .touch .video-container .poster {
-    display: block !important;
-}
-#home .video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-}
-#home .video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-}
-#home .video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-}
-#home .video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-}
-#home .video-container video.fillWidth {
-    width: 100%;
-}
-
+#home {
+    padding: 0;
+    color: #fff;
+    background-image: url(../img/cover/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
 #home h1 {
     margin-top: 0;
     margin-bottom: 20px;
