@@ -99,7 +99,6 @@ function initAnimations() {
             $el.removeClass('hiding');
         }
     });
-}
 
     // Service hover animation
     $('.service').hover(function() {
@@ -107,14 +106,13 @@ function initAnimations() {
     }, function() {
         $('i', this).removeClass('animated tada');
     });
-}
+  }
 
 $(document).ready(function() {
 
     initNavbar();
     initPortfolio();
     initAnimations();
-
 });
 
 $(window).load(function() {
