@@ -106,7 +106,11 @@ function initAnimations() {
     }, function() {
         $('i', this).removeClass('animated tada');
     });
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> 24d36f2d56d78f34eb24d5abfb4ef2343acba242
 
 $(document).ready(function() {
 
@@ -121,4 +125,8 @@ $(window).load(function() {
 
     $loader.find('.fading-line').fadeOut();
     $loader.fadeOut("slow");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 24d36f2d56d78f34eb24d5abfb4ef2343acba242
 });
